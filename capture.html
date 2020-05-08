@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset=utf-8>
+	<title>HTML5 Video and Canvas: Video screenshot</title>
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->	
+    <style>
+        
+article, aside, figure, figcaption, footer, header, hgroup, menu, nav, section { display:block; }
+video, canvas {
+	border:1px solid #000;
+}
+button {
+	margin-top:10px;
+}
+footer { 
+	font-size:11px;
+	color:#aaa; 
+	margin-top:10px;
+}
+small { 
+	color:#aaa; 
+	font-size:11px;
+	display:block;
+}
+a { 
+	color:#aaa;
+	text-decoration:none;
+}
+/*video {
+	display: none;
+}
+canvas { position: absolute; visibility: hidden;}*/
+
+	</style>
+	<script src="js/jquery-3.5.0.min.js"></script>
+</head>
+<body>
+	<video id="video" width="720" height="560" mute autoplay></video>
+	<canvas></canvas>
+	<footer>
+		<small>&copy; copyright 2006, Blender Foundation / Netherlands Media Art Institute / <a href="http://www.elephantsdream.org">www.elephantsdream.org</a></small>
+	</footer>
+	<button id="snap" onclick="snap()">Take screenshot</button>
+	<a href="#" class="button" onclick="uploadEx()">Download</a>
+	<form method="post" accept-charset="utf-8" name="form1">
+		<input name="hidden_data" id='hidden_data' type="hidden"/>
+	</form>
+	<script src="js/face-api.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
