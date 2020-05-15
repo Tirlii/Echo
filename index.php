@@ -3,11 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Crossroads Slideshow | Codrops</title>
-		<meta name="description" content="An experimental slideshow with an inclined look with three slide previews and a content view on click." />
-		<meta name="keywords" content="slideshow, javascript, tweenmax, rotation, animation, css" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="favicon.ico">
+		<title>Echo - Thibaut CHAYOT</title>
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 	    <script src="js/jquery-3.5.0.min.js"></script>
         <script src="js/galleria.js"></script>
